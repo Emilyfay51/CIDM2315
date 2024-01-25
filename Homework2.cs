@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Please input a letter grade");
+        Console.WriteLine("Please input a letter grade:");
         string grade= Console.ReadLine();
         if(grade=="A"){
         Console.WriteLine("GPA Point: 4");
@@ -44,10 +44,10 @@ class Program
             string year=Console.ReadLine();
             int year_int=Convert.ToInt16(year);
            if(year_int%4==0&&year_int%100!=0){
-            Console.WriteLine("This is a Leap Year");
+            Console.WriteLine("This is a Leap Year.");
 }
 else
-    Console.WriteLine("This is not a Leap Year");
+    Console.WriteLine("This is not a Leap Year.");
 }
 }
 
