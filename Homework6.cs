@@ -1,8 +1,6 @@
 ﻿namespace Homework6;
 using System;
-using System;
 
-using System;
 
 class Program
 {
